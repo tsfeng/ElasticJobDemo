@@ -10,7 +10,7 @@ simpleJob:
   cron: 0/50 * * * * ?
   shardingTotalCount: 3
   shardingItemParameters: 0=Beijing,1=Shanghai,2=Guangzhou
-  jobParameters: "AC1001"
+  jobParameters: "AC1001"
 
 dataflowJob:
   cron: 0/50 * * * * ?
