@@ -1,2 +1,0 @@
-# ElasticJobDemo
-elastic job
