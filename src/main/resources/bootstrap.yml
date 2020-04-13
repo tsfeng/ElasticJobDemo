@@ -1,0 +1,20 @@
+server:
+  port: 8889
+
+
+elastic-job:
+  serverList: localhost:2181
+  namespace: FCS_TEST
+
+simpleJob:
+  cron: 0/50 * * * * ?
+  shardingTotalCount: 3
+  shardingItemParameters: 0=Beijing,1=Shanghai,2=Guangzhou
+  jobParameters: "AC1001"
+
+dataflowJob:
+  cron: 0/50 * * * * ?
+  shardingTotalCount: 3
+  shardingItemParameters: 0=Beijing,1=Shanghai,2=Guangzhou
+  jobParameters: "AC1002"
+
